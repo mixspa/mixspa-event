@@ -1,7 +1,7 @@
 {
   "name": "@mixspa/events",
-  "version": "0.0.1",
-  "description": "A library stencil based on node and test used jest",
+  "version": "0.1.0",
+  "description": "A events library for mixspa to implement pub sub",
   "main": "lib/index.js",
   "engines": {
     "node": ">= 6"

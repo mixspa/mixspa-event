@@ -5,7 +5,7 @@ This is events for mixspa
 
 [![NPM Version](https://img.shields.io/npm/v/@mixspa/events.svg)](https://npmjs.org/package/@mixspa/events)
 [![NPM Downloads](https://img.shields.io/npm/dm/@mixspa/events.svg)](https://npmjs.org/package/@mixspa/events)
-[![Build Status](https://circleci.com/gh/xqstencils/mixspa-events.svg?style=svg)](https://circleci.com/gh/xqstencils/mixspa-events)
+[![Build Status](https://circleci.com/gh/mixspa/mixspa-events.svg?style=svg)](https://circleci.com/gh/mixspa/mixspa-events)
 
 [![NPM](https://nodei.co/npm/@mixspa/events.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@mixspa/events/)
 
