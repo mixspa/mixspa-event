@@ -28,4 +28,4 @@ MixspaEvent.emit('test:update', 'Hello Test');
 
 ## License
 
-mixspa-events is released under the [MIT license](https://github.com/xqstencils/mixspa-events/blob/master/LICENSE).
+mixspa-events is released under the [MIT license](https://github.com/mixspa/mixspa-events/blob/master/LICENSE).

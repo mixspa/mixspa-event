@@ -1,6 +1,6 @@
 {
   "name": "@mixspa/events",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A events library for mixspa to implement pub sub",
   "main": "lib/index.js",
   "engines": {
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xqstencils/mixspa-events.git"
+    "url": "git+https://github.com/mixspa/mixspa-events.git"
   },
   "keywords": [
     "lib",
@@ -54,7 +54,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xqstencils/mixspa-events/issues"
+    "url": "https://github.com/mixspa/mixspa-events/issues"
   },
-  "homepage": "https://github.com/xqstencils/mixspa-events#readme"
+  "homepage": "https://github.com/mixspa/mixspa-events#readme"
 }
