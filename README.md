@@ -14,16 +14,16 @@ This is a simple pubsub for mixspa with window custom event. This library only c
 ```js
 import MixspaEvent from 'mixspa-events'
 /*
-MixspaEvent.on('[module]:[action]', listener);
+MixspaEvent.on('[namespace]:[module]:[action]': String, listener: Function);
 */
-MixspaEvent.on('test:update', (message) => {
+MixspaEvent.on('mixspa:test:update', (message) => {
   console.log(message);
 });
 
 /*
-MixspaEvent.emit('[module]:[action]', message);
+MixspaEvent.emit('[namespace]:[module]:[action]': String, message: Object);
 */
-MixspaEvent.emit('test:update', 'Hello Test');
+MixspaEvent.emit('mixspa:test:update', 'Hello Test');
 ```
 
 ## License

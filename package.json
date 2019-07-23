@@ -1,6 +1,6 @@
 {
   "name": "@mixspa/events",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A events library for mixspa to implement pub sub",
   "main": "lib/index.js",
   "engines": {

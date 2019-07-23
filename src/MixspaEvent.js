@@ -1,10 +1,10 @@
 class MixspaEvent {
   static on(type, listener) {
-    window.addEventListener('mixspa:' + type, (e) => listener(e.detail));
+    window.addEventListener(type, (e) => listener(e.detail));
   }
 
   static emit(type, message) {
-    window.dispatchEvent(new CustomEvent('mixspa:' + type, {
+    window.dispatchEvent(new CustomEvent(type, {
       detail: message
     }));
   }
