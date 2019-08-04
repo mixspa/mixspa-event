@@ -20,7 +20,7 @@ describe('MixspaEvent', () => {
   });
 
   it('should do not trigger event listener when listener has been removed', () => {
-    MixspaEvent.clear('mixspa:test:changed', listener);
+    MixspaEvent.off('mixspa:test:changed', listener);
     MixspaEvent.emit('mixspa:test:changed', 'Hello Event');
     expect(callback).not.toHaveBeenCalledWith('Hello Event');
   });

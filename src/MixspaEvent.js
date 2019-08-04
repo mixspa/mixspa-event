@@ -11,7 +11,7 @@ class MixspaEvent {
     }));
   }
 
-  static clear(type, listener) {
+  static off(type, listener) {
     window.removeEventListener(type, listener);
   }
 }

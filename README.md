@@ -14,9 +14,9 @@ This is a simple pubsub for mixspa with window custom event. This library only c
 ```js
 import MixspaEvent from 'mixspa-events'
 /*
-MixspaEvent.on('[namespace]:[module]:[action]': String, listener: Function);
+MixspaEvent.on('[namespace]:[module]:[action]': String, callback: Function) : Listener;
 */
-MixspaEvent.on('mixspa:test:update', (message) => {
+let listener = MixspaEvent.on('mixspa:test:update', (message) => {
   console.log(message);
 });
 
@@ -24,6 +24,11 @@ MixspaEvent.on('mixspa:test:update', (message) => {
 MixspaEvent.emit('[namespace]:[module]:[action]': String, message: Object);
 */
 MixspaEvent.emit('mixspa:test:update', 'Hello Test');
+
+/*
+MixspaEvent.off('[namespace]:[module]:[action]': String, listener: Object);
+*/
+MixspaEvent.off('mixspa:test:update', listener);
 ```
 
 ## License
